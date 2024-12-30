@@ -10,7 +10,7 @@ def loadI(value, reg):
 
 
 def load(reg1, reg2):
-    registers[reg2] = registers[reg1]
+    registers[reg2] = memory[registers[reg1]]
 
 
 def store(reg1, reg2):
